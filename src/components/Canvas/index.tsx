@@ -12,11 +12,12 @@ const CanvasElement = styled.canvas`
 interface CanvasProps extends React.HTMLAttributes<HTMLCanvasElement> {
   draw: (context: CanvasRenderingContext2D, frameCount: number) => void,
   height?: number,
-  width?: number
+  width?: number,
+  refreshInterval?: number;
 }
 
-const Canvas: FunctionComponent<CanvasProps> = ({draw, height = 400, width = 400, ...rest}: CanvasProps) => {
-  const canvasRef = useCanvas(draw);
+const Canvas: FunctionComponent<CanvasProps> = ({draw, height = 400, width = 400, refreshInterval = 1, ...rest}: CanvasProps) => {
+  const canvasRef = useCanvas(draw, refreshInterval);
 
   return (
     <CanvasElement ref={canvasRef} height={height} width={width} {...rest} />

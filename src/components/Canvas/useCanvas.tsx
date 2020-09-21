@@ -1,6 +1,6 @@
 import {useEffect, useRef} from "react";
 
-const resizeCanvas = (canvas:HTMLCanvasElement) => {
+const resizeCanvas = (canvas: HTMLCanvasElement) => {
   const {width, height} = canvas.getBoundingClientRect();
 
   if (canvas.width !== width || canvas.height !== height) {
@@ -12,7 +12,7 @@ const resizeCanvas = (canvas:HTMLCanvasElement) => {
   return false;
 }
 
-const useCanvas = (draw: (context: CanvasRenderingContext2D, frameCount: number) => void) => {
+const useCanvas = (draw: (context: CanvasRenderingContext2D, frameCount: number) => void, refreshInterval: number) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -24,10 +24,9 @@ const useCanvas = (draw: (context: CanvasRenderingContext2D, frameCount: number)
 
       const predraw = (context: CanvasRenderingContext2D, canvas: HTMLCanvasElement) => {
         context.save();
-        context.translate(canvas.width * 0.5, canvas.height * 0.5);
         resizeCanvas(canvas);
         const {width, height} = context.canvas;
-        context.clearRect(-width * 0.5, -height * 0.5, width, height);
+        context.clearRect(0, 0, width, height);
       }
 
       const postdraw = (context: CanvasRenderingContext2D) => {
@@ -36,19 +35,23 @@ const useCanvas = (draw: (context: CanvasRenderingContext2D, frameCount: number)
       }
 
       const render = () => {
-        if(!context) return;
-        predraw(context, canvas);
+        if (!context) return;
+        if (refreshInterval && frameCount % refreshInterval === 0) {
+          predraw(context, canvas);
+        }
         draw(context, frameCount);
-        postdraw(context);
+        if (refreshInterval && frameCount % refreshInterval === 0) {
+          postdraw(context);
+        }
         animationFrameId = window.requestAnimationFrame(render);
       }
       render();
 
-      return() => {
+      return () => {
         window.cancelAnimationFrame(animationFrameId);
       }
     }
-  }, [draw])
+  }, [draw, refreshInterval])
 
   return canvasRef;
 }
