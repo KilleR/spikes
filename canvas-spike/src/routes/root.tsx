@@ -52,12 +52,13 @@ const Root = () => {
 
   let time = Date.now();
   const draw = (ctx: CanvasRenderingContext2D, frameCount: number) => {
-    ctx.filter = 'blur(2.5px)'
+    // ctx.filter = 'blur(2.5px)'
 
     let edgeTiles = 0;
     map.biomes.forEach(biome => {
       edgeTiles += biome.edgeTiles.length;
     })
+    console.log('Draw interval:', Date.now() - time);
     time = Date.now();
 
 
