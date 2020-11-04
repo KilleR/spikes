@@ -1,7 +1,7 @@
 import React from "react";
 import Canvas from "../components/Canvas";
 import styled from "@emotion/styled";
-import {Biome, MapArea, Tile} from "../types";
+import {MapArea, Tile} from "../types";
 
 const CenterWrap = styled.div`
   position: relative;
