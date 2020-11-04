@@ -2,6 +2,7 @@
   "name": "canvas-spike",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/map/",
   "dependencies": {
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
