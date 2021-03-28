@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 )
 
@@ -110,7 +111,7 @@ type ContainedObject struct {
 }
 
 func doFileUpload() {
-	token := "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTcwMjI1NzQsImlzQWRtaW4iOnRydWUsInVzZXJJZCI6Ik1vdGhlck5pZ2h0In0.7XvBr6pkEs129qqG262cdUTbA5d4NmF5EHYaZTmruzk"
+	token := "Bearer " + os.Getenv("API_TOKEN")
 
 	client := &http.Client{}
 	client.CheckRedirect = func(req *http.Request, via []*http.Request) error {
