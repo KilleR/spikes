@@ -1,0 +1,5064 @@
+{
+  "SaveName": "DWTemp",
+  "GameMode": "None",
+  "Date": "3/28/2021 12:43:02 PM",
+  "VersionNumber": "v13.0.5",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 1.0,
+  "Table": "Table_None",
+  "Sky": "Sky_Tunnel",
+  "Note": "",
+  "Rules": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": []
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "a78f84",
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -1.030806E-06,
+        "rotY": -3.70293151E-06,
+        "rotZ": 1.530256E-06,
+        "scaleX": 200.0,
+        "scaleY": 0.1,
+        "scaleZ": 200.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.134146333,
+        "g": 0.134146333,
+        "b": 0.134146333
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0a4d9b",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.0,
+        "posY": 3.35,
+        "posZ": 95.0,
+        "rotX": 0.0,
+        "rotY": 179.8,
+        "rotZ": 0.0,
+        "scaleX": 15.3268814,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.35014772
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "8356bd",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 3.34820342,
+        "posZ": -95.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3268919,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.35014534
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.442999959,
+        "g": 0.230999947,
+        "b": 0.0899999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Brown",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e9dbbc",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.0,
+        "posY": 3.35,
+        "posZ": 95.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3268747,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.35014534
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2270fc",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -95.0,
+        "posY": 3.35,
+        "posZ": -15.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 15.1940193,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.40568066
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7d5bc6",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 95.0,
+        "posY": 3.35,
+        "posZ": -15.0,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 15.1940022,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.40568066
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Pink",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ee2ed2",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 95.0,
+        "posY": 3.35,
+        "posZ": 15.0,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 15.194006,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.40568066
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "8233ed",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.0,
+        "posY": 3.35,
+        "posZ": -95.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3268938,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.35014534
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "556dc2",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 3.35,
+        "posZ": 95.0,
+        "rotX": 0.0,
+        "rotY": 179.800049,
+        "rotZ": 0.0,
+        "scaleX": 15.3268843,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.35014772
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.128999949,
+        "g": 0.694,
+        "b": 0.606999934,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Teal",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0c13b3",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.0,
+        "posY": 3.35,
+        "posZ": -95.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3268747,
+        "scaleY": 11.8970547,
+        "scaleZ": 6.705048
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9c0866",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -95.0,
+        "posY": 3.35,
+        "posZ": 15.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 15.1940155,
+        "scaleY": 11.8970528,
+        "scaleZ": 6.40568066
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7fbb9e",
+      "Name": "Bag",
+      "Transform": {
+        "posX": -83.77,
+        "posY": -0.135043979,
+        "posZ": -64.4533,
+        "rotX": -8.62111165e-7,
+        "rotY": -2.66804356e-8,
+        "rotZ": 0.00000170587953,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Unit Tiles (Red)",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7058823,
+        "g": 0.366520882,
+        "b": 0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "Bag": {
+        "Order": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Infantry (Sov.)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/33/a8/O9TZsjJO_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Infantry (West)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/f0/b2/lO9yFXUo_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Infantry (Fra.)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/9e/6f/ZjcD4SqE_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Infantry HQ (Sov.)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/a0/88/w7Sjhobe_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Infantry HQ (West)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/54/27/oGOrcKYT_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Assault Team (Sov.)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/8d/d0/Eh3gd8cc_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Assault Team (West)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/2e/68/xS9p7HOp_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Assault Team (Sov.)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/27/37/8wuzBRPK_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Assault Team (West)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/56/38/gGN7HJt9_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "ATGM (Faktoriya)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/d1/06/GMsxe7Fm_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "ATGM (Milan)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/df/76/kbYz67Vr_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "ATGM (HJ-8L)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/1d/1e/Y3IkXZcY_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "MG Team (Sov.)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/54/67/8crHpTJe_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "MG Team (West)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/de/cc/MHTW5J5H_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Mortar Team",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/fd/20/jXIs5JyS_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "SAM (Strela)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/07/5b/PInWfi3c_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "SAM (Stinger)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/b3/33/TFbsKLKO_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "SAM (QW-2)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/c4/38/0hxv1B7G_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Militia Infantry",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/be/92/v0MofpoB_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Militia HQ",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/fa/b5/CIa6chA3_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Militia Assault Team",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/6e/c8/lbgc9Ttp_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Militia MG Team",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/69/a0/aNandRbU_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Olifant 1",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/34/41/KAeoP0NL_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Olifant 1B",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/ca/04/ot6VWMQj_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Centurion AVRE",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/68/c3/AxgNuChl_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "T-55A",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/02/26/qu6OvCRf_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "T-72M",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/2e/4b/Ip3RzCFG_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M48A3 Patton",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/3b/cd/JOXKxpMi_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M60A1 Patton",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/2c/2c/rRCgsxED_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M51 Isherman",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/25/26/vldxdVLP_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "AMX-30B",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/4c/87/4IXJ1JIl_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Type 69-II",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/47/c9/rCO376X9_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Type 85-IIM",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/87/ee/DIf3cRwH_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "FV107 Scimitar",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/5a/f9/9JhVYXpl_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Scorpion 90",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/ec/17/AgJxN9AR_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "T-34/85",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/24/79/Dbz5bII0_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "PT-76B",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/ed/68/QdbN7RdA_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M41 Walker Bulldog",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/78/55/5Gvds76z_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "AMX-13/90",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/79/6e/Qm4tSewd_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Type 63",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/ae/72/yQ2z82PT_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "BTR-60PB",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/32/e6/LudgoTmX_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Mamba",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/79/0e/OpEn0Zh2_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M113",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/fc/b6/BWaMfaPZ_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "VAB",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/78/28/UVcbGmEM_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Type 89",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/57/b1/uaWECQy7_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Ratel-20",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/76/6a/fytw00sL_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Achzarit",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/91/f5/NCErbotl_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "AAV-7A1",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/ec/88/Vf9l1iSP_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "BMP-1",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/e4/5d/fRRJ8iOs_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "BMP-2",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/17/94/OyKQCciS_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Type 92",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/68/46/EZOYaHOb_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Truck",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/7c/d1/pC7dpTaE_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Technical",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/fc/2e/Hag7xvXO_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Jeep",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/cf/07/dF14By0v_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "HMMWV (HMG)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/be/9c/wEaS5mt4_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "HMMWV (AGL)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/0f/8a/jzxauvoZ_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Jeep (SPG-9)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/17/d5/1oJK1jnl_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Jeep (M40)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/50/21/htk4anzU_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Jeep (TOW)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/08/be/PJeqY5MY_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Jeep (Milan)",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/5e/e0/9MTWyHXB_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "BRDM-2 ATGM",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/65/69/ix4ilcr0_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "ZDF-1",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/93/bf/lc1Mx7Td_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Ratel-90",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/fb/6a/KCGKi7I2_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M56 Scorpion",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/88/7f/3sZPE5LK_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M3/90",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/be/a9/WKiveOk6_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "AMX-10RC",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/43/b9/QQePm2gS_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "PTZ-89",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/d5/0e/UGjLNUM6_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "ZU-23/2 Portee",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/ea/e0/FCFlgBIS_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "ZSU-23/4 Shilka",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/b1/ae/uztEp1Oo_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M163 VADS",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/88/1a/y3xm0L02_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "ZPU-4",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/ca/91/VRyobuGw_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "M45 Quadmount",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/d7/9c/Zupzh2VN_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Tarasque Type 53 T2",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/f8/4e/nyv5kVYi_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "ZU-23/2",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/42/58/vxeaobXJ_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Oerlikon GDF",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/a1/08/hWizZgzX_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "BRDM-2",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/ed/72/KMTWXSuE_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "VBL",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/8f/c5/973Piiwi_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Commando V100",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/bd/1a/2GyooTwW_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "FV721 Fox",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/57/1c/X4sdIWqw_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Spider LSV",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/6e/90/kaxWOg8D_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Mi-25 Hind D",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/e6/d5/0beUI1yt_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "SA-342 Gazelle",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/62/82/NUs7sn5N_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Mi-8TV Hip",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/44/f6/lEG1tnjJ_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "UH-1 Huey",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/0d/02/T0mqKHZe_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "Mi-2 Hoplite",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/74/55/WAr9Mh4r_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "MD-500 Defender",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/3a/18/ApsYXmfl_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -61.69089,
+            "posY": 1.00999975,
+            "posZ": -64.41182,
+            "rotX": 0.00000237020345,
+            "rotY": 180.000244,
+            "rotZ": -0.00000379791368,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+          },
+          "Nickname": "RQ-2 Pioneer",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://images2.imgbox.com/b1/f0/bwwAavOV_o.png",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": false,
+              "Stretch": true
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    }
+  ]
+}

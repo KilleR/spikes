@@ -1,0 +1,423 @@
+#"User Configured Variables"
+[outline_thickness]=0.04
+[line_thickness]=0.04
+[text_size]=6
+[text_font]="Trebuchet MS"
+dpi=900
+oversample=1
+gap=0.1,0.1
+[transparent]=#EFEFEF
+[token_back]=#FFFFFF
+
+[colourset_fore_usa]=#000000
+[colourset_back_usa]=#D2E19D
+[colourset_mid_usa]=#A0B060
+
+[colourset_fore_ger]=#000000
+[colourset_back_ger]=#C0C0C0
+[colourset_mid_ger]=#808080
+
+[colourset_fore_ss]=#C0C0C0
+[colourset_back_ss]=#000000
+[colourset_mid_ss]=#404040
+
+[colourset_fore_sov]=#000000
+[colourset_back_sov]=#AA3333
+[colourset_mid_sov]=#883333
+
+[colourset_fore_ukc]=#000000
+[colourset_back_ukc]=#E3D0B0
+[colourset_mid_ukc]=#B3A080
+
+[colourset_fore_fin]=#000000
+[colourset_back_fin]=#CCCCFF
+[colourset_mid_fin]=#A0A0D0
+
+[colourset_fore_fra]=#000000
+[colourset_back_fra]=#8ADDF4
+[colourset_mid_fra]=#60A0B0
+
+[colourset_fore_ita]=#000000
+[colourset_back_ita]=#007FFF
+[colourset_mid_ita]=#005FDF
+
+[colourset_fore_hng]=#000000
+[colourset_back_hng]=#436F4D
+[colourset_mid_hng]=#335F3D
+
+[colourset_fore_rom]=#000000
+[colourset_back_rom]=#FCD116
+[colourset_mid_rom]=#DCB105
+
+[colourset_fore_nato]=#FFFFFF
+[colourset_back_nato]=#1E3C82
+[colourset_mid_nato]=#2B55B7
+
+#"Basic setup"
+cardsize=3,3
+linkmulti = count
+link = "dirt_wars_1.txt"
+[all]= 1-{(count)}
+<icon_outline>=0.6,0.9,1.8,1.2
+<text_top>=0.5,0.52,2,0.35
+<text_bot>=0.5,2.12,2,0.35
+
+#"Set up macros for drawing text and icons"
+[armour_icon]=frametrans(icon_outline,0.25,0.3,-0.5,-0.6)
+<artillery_icon>=<icon_outline, CC, 0.25, 0.25>
+
+<mortar_tmp>=<icon_outline, CC, 0.25, 0.25>
+[mortar_icon]=frametrans(mortar_tmp,0,0.12)
+[mortar_icon_arrow]=frametrans(mortar_tmp,0,-0.13)
+
+<wheeled_tmp>=<icon_outline, BC, 0.15, 0.15>
+[wheeled_1]=frametrans(wheeled_tmp,-0.4,-0.05)
+[wheeled_2]=frametrans(wheeled_tmp,0,-0.05)
+[wheeled_3]=frametrans(wheeled_tmp,0.4,-0.05)
+
+<ampht> = <icon_outline, BW, 0.2>
+[amph]=frametrans(ampht,0,-0.05)
+<amph_1> = <amph, SL, 12.5%%>
+<amph_2> = <amph, SL, 12.5%%>
+<amph_3> = <amph, SL, 12.5%%>
+<amph_4> = <amph, SL, 12.5%%>
+<amph_5> = <amph, SL, 12.5%%>
+<amph_6> = <amph, SL, 12.5%%>
+<amph_7> = <amph, SL, 12.5%%>
+<amph_8> = <amph, SL, 12.5%%>
+
+macro=texts,(range1),(text1),(frame),(font1),(size1),(col1),(col2),(col3)
+  font=(font1),(size1),B,(col3),(col2),0.01,0.01
+  text=(range1),(text1),(frame)
+  font=(font1),(size1),BT,(col1),(col2)
+  text=(range1),(text1),(frame)
+end
+
+macro=ic_inf
+  line=[all],<icon_outline,PTL>,<icon_outline,PBR>,[colourset_fore_[colourset]],[line_thickness]
+  line=[all],<icon_outline,PBL>,<icon_outline,PTR>,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_arm
+  ellipse=[all],<armour_icon>,[colourset_fore_[colourset]],"empty",[line_thickness]
+end
+
+macro=ic_at
+  line=[all],<icon_outline,PBL>,<icon_outline,PTC>,[colourset_fore_[colourset]],[line_thickness]
+  line=[all],<icon_outline,PTC>,<icon_outline,PBR>,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_art
+  ellipse=[all],<artillery_icon>,[colourset_fore_[colourset]],[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_mrt
+  ellipse=[all],<mortar_icon>,[colourset_fore_[colourset]],[colourset_back_[colourset]],0.1
+  line=[all], <mortar_icon_arrow,PBC>, <mortar_icon_arrow,PTC>, [colourset_fore_[colourset]],0.04
+  line=[all], <mortar_icon_arrow,PCL>, <mortar_icon_arrow,PTC>, [colourset_fore_[colourset]],0.04
+  line=[all], <mortar_icon_arrow,PCR>, <mortar_icon_arrow,PTC>, [colourset_fore_[colourset]],0.04
+end
+
+macro=ic_rkt
+  ic_art
+  line=[all],<artillery_icon,PTL>-0.05,<artillery_icon,PTC>-0.12,[colourset_fore_[colourset]],[line_thickness]
+  line=[all],<artillery_icon,PTC>-0.12,<artillery_icon,PTR>-0.05,[colourset_fore_[colourset]],[line_thickness]
+  line=[all],<artillery_icon,PTL>-0.13,<artillery_icon,PTC>-0.2,[colourset_fore_[colourset]],[line_thickness]
+  line=[all],<artillery_icon,PTC>-0.2,<artillery_icon,PTR>-0.13,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_rec
+  line=[all],<icon_outline,PBL>,<icon_outline,PTR>,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_mot
+  line=[all],<icon_outline,PTC>,<icon_outline,PBC>,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_whl
+  ellipse=[all],<wheeled_1>,[colourset_fore_[colourset]],[colourset_back_[colourset]],[line_thickness]
+  ellipse=[all],<wheeled_2>,[colourset_fore_[colourset]],[colourset_back_[colourset]],[line_thickness]
+  ellipse=[all],<wheeled_3>,[colourset_fore_[colourset]],[colourset_back_[colourset]],[line_thickness]
+end
+
+macro=ic_hq
+  line=[all],<icon_outline,PTL>+0.2,<icon_outline,PTR>+0.2,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_medium
+  line=[all],0.18+<icon_outline,PTL>,0.18+<icon_outline,PBL>,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_heavy
+  line=[all],0.18+<icon_outline,PTL>,0.18+<icon_outline,PBL>,[colourset_fore_[colourset]],[line_thickness]
+  line=[all],0.18+<icon_outline,PTL>,<icon_outline,PTL>,[colourset_fore_[colourset]],[line_thickness]
+  line=[all],<icon_outline,PBL>,0.18+<icon_outline,PBL>,[colourset_fore_[colourset]],[line_thickness]
+  line=[all],<icon_outline,PTL>,<icon_outline,PBL>,[colourset_fore_[colourset]],[line_thickness]
+  fill=[all], 0.1+<icon_outline,PTL>+0.1 ,[colourset_fore_[colourset]],[colourset_fore_[colourset]]
+end
+
+macro=ic_aa
+  bezier=[all], <icon_outline,PBL> , 0.50+<icon_outline,PBL>-0.35 , -0.50+<icon_outline,PBR>-0.35 , <icon_outline,PBR> ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_abn
+  bezier=[all], -0.3+<icon_outline,PBC>-0.1 , -0.12+<icon_outline,PBC>-0.2 , -0.12+<icon_outline,PBC>-0.2 , <icon_outline,PBC>-0.1 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 0.3+<icon_outline,PBC>-0.1 , 0.12+<icon_outline,PBC>-0.2 , 0.12+<icon_outline,PBC>-0.2 , <icon_outline,PBC>-0.1 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_amb
+  line=[all], -0.2+<icon_outline,PTC>+0.1 , <icon_outline,PTC>+0.3 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], 0.2+<icon_outline,PTC>+0.1 , <icon_outline,PTC>+0.3 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_amb_organic
+  line=[all], <icon_outline,PTL>+0.1, -0.2+<icon_outline,PTC>+0.1 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], 0.2+<icon_outline,PTC>+0.1 , <icon_outline,PTR>+0.1 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.2+<icon_outline,PTC>+0.1 , <icon_outline,PTC>+0.3 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], 0.2+<icon_outline,PTC>+0.1 , <icon_outline,PTC>+0.3 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_para
+  bezier=[all], -0.25+<icon_outline,PTC>+0.45 , -0.15+<icon_outline,PTC>+0.2 , 0.15+<icon_outline,PTC>+0.2 , 0.25+<icon_outline,PTC>+0.45 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.25+<icon_outline,PTC>+0.45 , 0.25+<icon_outline,PTC>+0.45 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.25+<icon_outline,PTC>+0.45 , <icon_outline,PBC>-0.25 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], 0.25+<icon_outline,PTC>+0.45 , <icon_outline,PBC>-0.25 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_fuel
+  line=[all], <icon_outline,PTC>+0.4 , <icon_outline,PBC>-0.2 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PTC>+0.4 , -0.2+<icon_outline,PTC>+0.2 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PTC>+0.4 , +0.2+<icon_outline,PTC>+0.2 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.2+<icon_outline,PTC>+0.2 , +0.2+<icon_outline,PTC>+0.2 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_maint_old
+  line=[all], 0.67,0.75 , 1.33,0.75 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 0.50,0.68 , 0.70,0.65 , 0.70,0.85 , 0.50,0.82 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 1.50,0.68 , 1.30,0.65 , 1.30,0.85 , 1.50,0.82 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_maint
+  line=[all], 0.5+<icon_outline,PCL> , -0.5+<icon_outline,PCR> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 0.35+<icon_outline,PCL>-0.15, 0.55+<icon_outline,PCL>-0.1 , 0.55+<icon_outline,PCL>+0.1 , 0.35+<icon_outline,PCL>+0.15 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], -0.35+<icon_outline,PCR>-0.15, -0.55+<icon_outline,PCR>-0.1 , -0.55+<icon_outline,PCR>+0.1 , -0.35+<icon_outline,PCR>+0.15 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_med
+  line=[all], <icon_outline,PCL>,<icon_outline,PCR> ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PTC>,<icon_outline,PBC> ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_hosp
+  ic_med
+  line=[all], -0.25+<icon_outline,PCC>-0.2 , -0.25+<icon_outline,PCC>+0.2 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], 0.25+<icon_outline,PCC>-0.2 , 0.25+<icon_outline,PCC>+0.2 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_fw
+  bezier=[all], <icon_outline,PCC> , -0.45+<icon_outline,PCC>-0.3 , +0.35+<icon_outline,PCL>-0.15 , +0.35+<icon_outline,PCL> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <icon_outline,PCC> , -0.45+<icon_outline,PCC>+0.3 , +0.35+<icon_outline,PCL>+0.15 , +0.35+<icon_outline,PCL> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <icon_outline,PCC> , +0.45+<icon_outline,PCC>-0.3 , -0.35+<icon_outline,PCR>-0.15 , -0.35+<icon_outline,PCR> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <icon_outline,PCC> , +0.45+<icon_outline,PCC>+0.3 , -0.35+<icon_outline,PCR>+0.15 , -0.35+<icon_outline,PCR> ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_rot
+  line=[all], <icon_outline,PCC> , +0.4+<icon_outline,PTL>+0.4 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PCC> , +0.4+<icon_outline,PBL>-0.4 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PCC> , -0.4+<icon_outline,PTR>+0.4 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PCC> , -0.4+<icon_outline,PBR>-0.4 ,[colourset_fore_[colourset]],[line_thickness]
+
+  line=[all], +0.4+<icon_outline,PBL>-0.4 , +0.4+<icon_outline,PTL>+0.4 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.4+<icon_outline,PTR>+0.4 , -0.4+<icon_outline,PBR>-0.4 ,[colourset_fore_[colourset]],[line_thickness]
+  fill=[all], +0.1+<icon_outline,PCC> ,[colourset_fore_[colourset]],[colourset_fore_[colourset]]
+  fill=[all], -0.1+<icon_outline,PCC> ,[colourset_fore_[colourset]],[colourset_fore_[colourset]]
+end
+
+macro=ic_rot_att
+  ic_rot
+  font=[text_font],[text_size]+1,,[colourset_fore_[colourset]],[colourset_back_[colourset]]
+  text=[all],"A",-0.15+<icon_outline,PTC>+0.15,0.3,0.3
+end
+
+macro=ic_rot_trans
+  ic_rot
+  font=[text_font],[text_size]+1,,[colourset_fore_[colourset]],[colourset_back_[colourset]]
+  text=[all],"C",-0.15+<icon_outline,PTC>+0.15,0.3,0.3
+end
+
+macro=ic_sig
+  line=[all], <icon_outline,PTC>+0.4 , <icon_outline,PBC>-0.4 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PTC>+0.4 , <icon_outline,PBR> ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PTL> , <icon_outline,PBC>-0.4 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_supp
+  line=[all],<icon_outline,PBL>-0.2,<icon_outline,PBR>-0.2,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_mnt
+  line=[all], -0.3+<icon_outline,PBC> , +0.3+<icon_outline,PBC> ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.3+<icon_outline,PBC> , <icon_outline,PBC>-0.3 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], +0.3+<icon_outline,PBC> , <icon_outline,PBC>-0.3 ,[colourset_fore_[colourset]],[line_thickness]
+  fill=[all], <icon_outline,PBC>-0.1 ,[colourset_fore_[colourset]],[colourset_fore_[colourset]]
+end
+
+macro=ic_eng
+  line=[all], +0.55+<icon_outline,PCL>-0.1 , -0.55+<icon_outline,PCR>-0.1 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], +0.55+<icon_outline,PCL>-0.1 , +0.55+<icon_outline,PCL>+0.1 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], <icon_outline,PCC>-0.1 , <icon_outline,PCC>+0.1 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.55+<icon_outline,PCR>-0.1 , -0.55+<icon_outline,PCR>+0.1 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_amph_old
+  bezier=[all], 0.20,1.15 , 0.30,1.15 , 0.30,1.00 , 0.40,1.00 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 0.40,1.00 , 0.50,1.00 , 0.50,1.15 , 0.60,1.15 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 0.60,1.15 , 0.70,1.15 , 0.70,1.00 , 0.80,1.00 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 0.80,1.00 , 0.90,1.00 , 0.90,1.15 , 1.00,1.15 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 1.00,1.15 , 1.10,1.15 , 1.10,1.00 , 1.20,1.00 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 1.20,1.00 , 1.30,1.00 , 1.30,1.15 , 1.40,1.15 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 1.40,1.15 , 1.50,1.15 , 1.50,1.00 , 1.60,1.00 ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], 1.60,1.00 , 1.70,1.00 , 1.70,1.15 , 1.80,1.15 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_amph
+  bezier=[all], <amph_1,PBL> , <amph_1,PBC>, <amph_1,PTC>, <amph_1,PTR> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <amph_2,PBR> , <amph_2,PBC>, <amph_2,PTC>, <amph_2,PTL> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <amph_3,PBL> , <amph_3,PBC>, <amph_3,PTC>, <amph_3,PTR> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <amph_4,PBR> , <amph_4,PBC>, <amph_4,PTC>, <amph_4,PTL> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <amph_5,PBL> , <amph_5,PBC>, <amph_5,PTC>, <amph_5,PTR> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <amph_6,PBR> , <amph_6,PBC>, <amph_6,PTC>, <amph_6,PTL> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <amph_7,PBL> , <amph_7,PBC>, <amph_7,PTC>, <amph_7,PTR> ,[colourset_fore_[colourset]],[line_thickness]
+  bezier=[all], <amph_8,PBR> , <amph_8,PBC>, <amph_8,PTC>, <amph_8,PTL> ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_sf_old
+  font="Arial",12,,[colourset_fore_[colourset]],[colourset_back_[colourset]]
+  text=[all],"SF",<card_outline>,center,center
+  line=[all], 0.65,0.55 , 1.35,0.55 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], 0.65,0.95 , 1.35,0.95 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], 0.65,0.55 , 0.65,0.95 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], 1.35,0.55 , 1.35,0.95 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_sf
+  font=[text_font],[text_size]+4,,[colourset_fore_[colourset]],[colourset_back_[colourset]]
+  text=[all],"SF",<icon_outline>,center,center
+  line=[all], +0.5+<icon_outline,PTL>+0.3 , +0.5+<icon_outline,PBL>-0.3 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.5+<icon_outline,PTR>+0.3 , -0.5+<icon_outline,PBR>-0.3 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], +0.5+<icon_outline,PTL>+0.3 , -0.5+<icon_outline,PTR>+0.3 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], +0.5+<icon_outline,PBL>-0.3 , -0.5+<icon_outline,PBR>-0.3 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+macro=ic_uav
+  line=[all], +0.3+<icon_outline,PCL>-0.25 , <icon_outline,PCC> ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.3+<icon_outline,PCR>-0.25 , <icon_outline,PCC> ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], +0.3+<icon_outline,PCL>-0.25 , <icon_outline,PCC>+0.25 ,[colourset_fore_[colourset]],[line_thickness]
+  line=[all], -0.3+<icon_outline,PCR>-0.25 , <icon_outline,PCC>+0.25 ,[colourset_fore_[colourset]],[line_thickness]
+end
+
+#"Macro to draw modifiers"
+macro=draw_mod,(type)
+  select=(type)
+    case=inf
+      ic_inf
+    case=arm
+      ic_arm
+    case=at
+      ic_at
+    case=art
+      ic_art
+    case=mrt
+      ic_mrt
+    case=rec
+      ic_rec
+    case=rkt
+      ic_rkt
+    case=aa
+      ic_aa
+    case=aaa
+      ic_aa
+      ic_art
+    case=fuel
+      ic_fuel
+    case=maint
+      ic_maint
+    case=med
+      ic_med
+    case=hosp
+      ic_hosp
+    case=fw
+      ic_fw
+    case=fw_rec
+      ic_fw
+      ic_rec
+    case=rot
+      ic_rot
+    case=rot_att
+      ic_rot_att
+    case=rot_trans
+      ic_rot_trans
+    case=sig
+      ic_sig
+    case=supp
+      ic_supp
+    case=eng
+      ic_eng
+    case=hq
+      ic_hq
+    case=abn
+      ic_abn
+    case=amb
+      ic_amb
+    case=amb_organic
+      ic_amb_organic
+    case=para
+      ic_para
+    case=mnt
+      ic_mnt
+    case=mot
+      ic_mot
+    case=whl
+      ic_whl
+    case=amph
+      ic_amph
+    case=medium
+      ic_medium
+    case=heavy
+      ic_heavy
+    case=sf
+      ic_sf
+    case=uav
+      ic_uav
+  endselect
+end
+
+#"Token outline"
+FILL = [all],1,1,[transparent],[transparent]
+CIRCLE = [all], 0.1, 0.1, 2.8, 2.8, [token_back], [token_back], [outline_thickness]
+
+#"Symbol outline"
+RECTANGLE = [all],<icon_outline>,[colourset_fore_[colourset]],[colourset_back_[colourset]],[line_thickness]
+
+#"Symbol macros"
+draw_mod=[mod1]
+draw_mod=[mod2]
+draw_mod=[mod3]
+draw_mod=[mod4]
+draw_mod=[mod5]
+draw_mod=[mod6]
+
+#"Text and Direction"
+texts=[all],[toptext],<text_top>,[text_font],[text_size],#000000,[token_back],#EEEEEE
+texts=[all],[bottomtext],<text_bot>,[text_font],[text_size],#000000,[token_back],#EEEEEE
+
+LINE = [all],1.5,0.1,1.5,0.5,[colourset_mid_[colourset]],[line_thickness]
+LINE = [all],1.5,0.1,1.6,0.2,[colourset_mid_[colourset]],[line_thickness]
+LINE = [all],1.5,0.1,1.4,0.2,[colourset_mid_[colourset]],[line_thickness]
+
+#"Save the results"
+SAVE = [all],"dirt_wars_1\dw_[colourset]_{§}.png",0,0,3,3,[transparent]
+
+#"Damaged notification"
+#CIRCLE = [all],1.4,2.5,0.2,0.2,#000000,#000000,[line_thickness]
+#SAVE = [all],"dirt_wars_1\dw_[colourset]_{§}D.png",0,0,3,3,[transparent]
